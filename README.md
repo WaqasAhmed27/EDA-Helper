@@ -7,6 +7,15 @@ This tool is designed to **help you quickly explore datasets, test ML models, an
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-🚀%20Try%20Now-brightgreen.svg)](https://auto-eda-ai.streamlit.app/)
+
+---
+
+## 🌐 Live Demo
+
+**Try the app now**: [https://auto-eda-ai.streamlit.app/](https://auto-eda-ai.streamlit.app/)
+
+No installation required! Upload your CSV file and start exploring your data with AI-powered insights immediately.
 
 ---
 
@@ -46,11 +55,18 @@ This tool is designed to **help you quickly explore datasets, test ML models, an
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Option 1: Use the Live Demo (Recommended)
+**🌐 [Try EDA Helper Online](https://auto-eda-ai.streamlit.app/)**
+
+Simply visit the link above and start uploading your datasets immediately - no setup required!
+
+### Option 2: Run Locally
+
+#### Prerequisites
 - Python 3.7 or higher
 - pip package manager
 
-### Installation
+#### Installation
 
 1. **Clone the repository**:
 ```bash
@@ -70,7 +86,7 @@ streamlit run app.py
 
 4. **Open your browser** and navigate to `http://localhost:8501`
 
-### Dependencies
+#### Dependencies
 ```txt
 streamlit>=1.28.0
 pandas>=1.5.0
@@ -83,7 +99,7 @@ xgboost>=1.7.0
 requests>=2.28.0
 ```
 
-### Configuration
+#### Configuration
 
 **Important**: This app requires a Google Gemini API key for AI-powered recommendations.
 
@@ -103,6 +119,8 @@ requests>=2.28.0
 ## 📖 How to Use
 
 ### Step-by-Step Guide
+
+**Using the Live Demo** or **Local Installation**:
 
 1. **📁 Upload Your Dataset**
    - Use the sidebar to upload a CSV file
@@ -244,7 +262,7 @@ echo 'GEMINI_API_KEY = "your-api-key-here"' > .streamlit/secrets.toml
 
 ## 🐛 Known Issues & Limitations
 
-- Large datasets (>100MB) may cause performance issues
+- Large datasets (>150MB) may cause performance issues
 - Currently supports only CSV files
 - Limited to tabular data (no support for images, text, etc.)
 - **Gemini API calls may have rate limits** - recommendations might take a moment to generate
@@ -255,9 +273,9 @@ echo 'GEMINI_API_KEY = "your-api-key-here"' > .streamlit/secrets.toml
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/WaqasAhmed27/eda-helper/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/WaqasAhmed27/eda-helper/discussions)
-- **Email**: vvaqasahmed27@gmail.com
+- **Issues**: [GitHub Issues](https://github.com/waqasahmed27/eda-helper/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/waqasahmed27/eda-helper/discussions)
+- **Email**: your.email@example.com
 
 ---
 
